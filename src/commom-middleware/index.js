@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 
-// REQUIRE SIGIN 
+// REQUIRE SIGIN login
 export const requireSignin = (req, res, next) => {
     if (req) {
         const token = req.headers.authorization.split(" ")[1];
