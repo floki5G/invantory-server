@@ -3,7 +3,7 @@ import { categorycontoller } from '../controller/category.controller.js';
 import { getcontroller } from '../controller/category.controller.js';
 import { updatecatecontroller } from '../controller/category.controller.js';
 import { deletecatecontroller } from '../controller/category.controller.js';
-
+// categoryroute 
 const categoryroute = express.Router();
 
 categoryroute.post('/category', categorycontoller)
